@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="kodi.repo" name="grayareacode addons" version="1.0.0" provider-name="grayareacode">
+    <extension point="xbmc.addon.repository" name="grayareacode Addons">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/grayareacode/kodi.repo/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/grayareacode/kodi.repo/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/grayareacode/kodi.repo/main/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>kodi.repo</summary>
+        <description>grayareacode kodi addon repository</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

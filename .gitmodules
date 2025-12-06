@@ -1,0 +1,3 @@
+[submodule "repo/kodi.helparr"]
+	path = repo/kodi.helparr
+	url = https://github.com/grayareacode/kodi.helparr.git

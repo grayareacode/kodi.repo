@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.video.themoviedb.download" name="TMDb Download Helparr" version="0.8.10" provider-name="grayareacode">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="plugin.video.themoviedb.helper" version="5.4.16" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="resources/service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Radarr and Sonarr for Kodi</summary>
+        <description lang="en_GB">Connect Kodi to Radarr and Sonarr for easy downloading.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <assets>
+            <icon>resources/images/icon.jpg</icon>
+            <fanart>resources/images/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon></addons>
